@@ -2,7 +2,7 @@
     <div class="row mt-5">
         <h1 class="mb-4">Welcome From Hello!</h1>
         <div class="col-md-4">
-            <div class="card py-4 fs-3" style="cursor:pointer">
+            <div class="card py-4 fs-3" @click="goToHelloMovie()" style="cursor:pointer">
                 <i class="fa-solid fa-clapperboard fs-1"></i>
                 Hello Movie
             </div>
@@ -33,6 +33,9 @@ export default {
     methods: {
         goToPassportHelper() {
             this.$router.push('/home')
+        },
+        goToHelloMovie() {
+            window.location.href = "http://hellolinker-001-site1.gtempurl.com/"
         }
     },
 }
