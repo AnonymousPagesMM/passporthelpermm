@@ -1,5 +1,0 @@
-[[redirects]]
-from= "https://hellolinker.netlify.app/*"
-to = "'http://passporthelpermm-001-site1.etempurl.com/api"
-status = 200
-force = true
